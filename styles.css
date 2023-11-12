@@ -10,13 +10,14 @@
     --lightgray: #EDEDED;
     --white: #FFF;
     --yellow: #FFCF2F;
+    --green: #8DC63F;
+    --darkgreen: #80A450;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Wix Madefor Display', sans-serif;
-                                                
+    font-family: 'Wix Madefor Text', sans-serif;                                       
 }
 
 header {
@@ -26,6 +27,27 @@ header {
     color: var(--white);
     display: flex;
     align-items: center;
+}
+
+.hero img {
+    width: 100vw;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.over-hero {
+    position: relative;
+    z-index: 2;
+    top: -200px;
+    left: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-box {
+    width: 200px;
+    height: 100px;
+    color: var(--white);
 }
 
 main {
@@ -94,8 +116,8 @@ header nav a {
 }
 
 .dropdown-content a:hover {
-    background-color: var(--bluegray);
-    color: var(--white);
+    background-color: var(--darkgreen);
+    color: var(--darkblue);
     font-weight: 600;
 }
 
@@ -151,6 +173,29 @@ footer {
         display: flex;
         gap: 2rem;
         align-items: center;
+    }
+
+    .hero img {
+        width: 100vw;
+        height: 25rem;
+        object-fit: cover;
+    }
+
+    .over-hero {
+        position: relative;
+        z-index: 2;
+        top: -300px;
+        left: 100px;
+        display: flex;
+        gap: 1rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .over-hero .hero-box p {
+        margin-top: -30px;
     }
 
 }
