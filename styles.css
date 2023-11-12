@@ -1,0 +1,167 @@
+@import url('https://fonts.cdnfonts.com/css/wix-madefor-display');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --darkblue: #1B213C;
+    --bluegray: #3181B2;
+    --lightgray: #EDEDED;
+    --white: #FFF;
+    --yellow: #FFCF2F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Display', sans-serif;
+                                                
+}
+
+header {
+    width: 100vw;
+    height: 4rem;
+    background-color: var(--darkblue);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+main {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2rem;
+    width: 100vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--white);
+    display: block;
+}
+
+.img-logo {
+    height: 2rem;
+    display: flex;
+}
+
+.desktop-menu {
+    display: none;
+}
+
+.drop-btn {
+    background-color: var(--darkblue);
+    border: none;
+    color: var(--white);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.mobile-drop-btn {
+    font-size: 2rem;
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--darkblue);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 1rem;
+}
+
+.mobile-drop-content {
+    left: -4rem;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--bluegray);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--darkblue);
+    color: var(--white);
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    gap: 2rem;
+}
+
+.socials a i {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+
+
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
+
+}
+
+/* Medium */
+@media (min-width: 768px) {
+
+}
+
+/* Large */
+@media (min-width: 1024px) {
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .desktop-menu {
+        display: block;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+}
+
+
+/*Extra Large XL */
+@media (min-width: 1280px) {
+
+}
+
+/* EXTRA Extra Large - XXL */
+@media (min-width: 1536px) {
+
+}
