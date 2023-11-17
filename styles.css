@@ -17,12 +17,17 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Wix Madefor Text', sans-serif;                                       
+    font-family: 'Wix Madefor Text', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw; 
+    height: 100vw;                                     
 }
 
 header {
     width: 100vw;
-    height: 4rem;
+    min-height: 60px;
     background-color: var(--darkblue);
     color: var(--white);
     display: flex;
@@ -31,17 +36,19 @@ header {
 
 .hero img {
     width: 100vw;
-    height: 15rem;
+    height: 25rem;
     object-fit: cover;
 }
 
 .over-hero {
     position: relative;
     z-index: 2;
-    top: -200px;
-    left: 20px;
+    top: -400px;
+    left: -20px;
     display: flex;
     gap: 1rem;
+    filter: drop-shadow(0 0 0.75rem black);
+    
 }
 
 .hero-box {
@@ -50,19 +57,24 @@ header {
     color: var(--white);
 }
 
+.empty-middle, .hero-tags {
+    width: 0;
+} 
+
 main {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 2rem;
+    align-items: center;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100vw;
-    padding-left: 4rem;
-    padding-right: 4rem;
 }
 
 header nav a {
@@ -129,8 +141,8 @@ header nav a {
 footer {
     background-color: var(--darkblue);
     color: var(--white);
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100vw;
     height: 5rem;
     display: flex;
@@ -151,13 +163,31 @@ footer {
 
 
 /* Small (sm) */
-@media (min-width: 640px) {
+@media (min-width: 420px) {
+
+    .over-hero {
+        position: relative;
+        z-index: 2;
+        top: -400px;
+        left: -80px;
+        display: flex;
+        gap: 1rem;
+    }
 
 
 }
 
 /* Medium */
 @media (min-width: 768px) {
+
+    .over-hero {
+        position: relative;
+        z-index: 2;
+        top: -300px;
+        left: -180px;
+        display: flex;
+        gap: 1rem;
+    }
 
 }
 
@@ -176,7 +206,7 @@ footer {
     }
 
     .hero img {
-        width: 100vw;
+        max-width: 1600px;
         height: 25rem;
         object-fit: cover;
     }
@@ -184,8 +214,8 @@ footer {
     .over-hero {
         position: relative;
         z-index: 2;
-        top: -300px;
-        left: 100px;
+        top: -330px;
+        left: -350px;
         display: flex;
         gap: 1rem;
     }
@@ -198,15 +228,50 @@ footer {
         margin-top: -30px;
     }
 
+    nav {
+        max-width: 1600px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
 }
 
 
 /*Extra Large XL */
 @media (min-width: 1280px) {
 
+    .over-hero {
+        position: relative;
+        z-index: 2;
+        top: -330px;
+        left: -260px;
+        display: flex;
+        gap: 1rem;
+    }
+
 }
 
 /* EXTRA Extra Large - XXL */
-@media (min-width: 1536px) {
+@media (min-width: 1440px) {
+
+    .over-hero {
+        position: relative;
+        z-index: 2;
+        top: -330px;
+        left: -450px;
+        display: flex;
+        gap: 1rem;
+    }
 
 }
