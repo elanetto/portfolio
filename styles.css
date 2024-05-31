@@ -25,9 +25,14 @@ body {
     height: 100vw;                                     
 }
 
+.logo {
+    margin-left: 10px;
+}
+
 header {
     width: 100vw;
     min-height: 60px;
+    padding: 1.5rem;
     background-color: var(--darkblue);
     color: var(--white);
     display: flex;
@@ -128,7 +133,7 @@ header nav a {
 }
 
 .dropdown-content a:hover {
-    background-color: var(--darkgreen);
+    background-color: var(--bluegray);
     color: var(--darkblue);
     font-weight: 600;
 }
