@@ -18,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Wix Madefor Text', sans-serif;
+    color: var(--darkblue);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -39,21 +40,21 @@ header {
     align-items: center;
 }
 
-.hero img {
+.hero {
     width: 100vw;
     height: 25rem;
-    object-fit: cover;
+    background-image: url("assets/images/hero/anette_hero_small.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
 
-.over-hero {
-    position: relative;
-    z-index: 2;
-    top: -400px;
-    left: -20px;
-    display: flex;
-    gap: 1rem;
+/* .over-hero {
+    background-color: #8DC63F;
+    color: var(--white);
     filter: drop-shadow(0 0 0.75rem black);
-    
+    height: 50%; 
 }
 
 .hero-box {
@@ -64,12 +65,75 @@ header {
 
 .empty-middle, .hero-tags {
     width: 0;
-} 
+}  */
 
-main {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.hero {
+    width: 100vw;
+    height: 25rem;
+    background-image: url("assets/images/hero/anette_hero_small.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* Vertically centers the over-hero div */
+    justify-content: flex-start; /* Aligns the over-hero div to the left */
 }
+
+.over-hero {
+    /* background-color: #8DC63F; */
+    color: var(--white);
+    filter: drop-shadow(0 0 0.75rem black);
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.hero-text {
+    flex: 1; /* Takes up as much space as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    margin: 0;
+}
+
+.empty-middle {
+    flex: 1; /* Takes up the remaining space */
+}
+
+/* MAIN */
+
+.gray-about-top {
+    background-color: var(--lightgray);
+    color: var(--darkblue);
+    display: flex;
+    margin-top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center;
+    padding: 1rem 4rem;
+    gap: 1rem;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.gray-about-top > div {
+    flex: 1;
+    min-width: 200px; /* Set a minimum width for better responsiveness */
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+/* NAVIGATION */
 
 nav {
     display: flex;
@@ -170,14 +234,11 @@ footer {
 /* Small (sm) */
 @media (min-width: 420px) {
 
-    .over-hero {
-        position: relative;
-        z-index: 2;
-        top: -400px;
-        left: -80px;
-        display: flex;
-        gap: 1rem;
+    .hero {
+        background-position: left;
     }
+
+
 
 
 }
@@ -185,28 +246,14 @@ footer {
 /* Medium */
 @media (min-width: 768px) {
 
-    .over-hero {
-        position: relative;
-        z-index: 2;
-        top: -300px;
-        left: -180px;
-        display: flex;
-        gap: 1rem;
-    }
+
 
 }
 
 /* Medium */
 @media (min-width: 868px) {
 
-    .over-hero {
-        position: relative;
-        z-index: 2;
-        top: -300px;
-        left: -250px;
-        display: flex;
-        gap: 1rem;
-    }
+
 
 }
 
@@ -222,29 +269,6 @@ footer {
         display: flex;
         gap: 2rem;
         align-items: center;
-    }
-
-    .hero img {
-        max-width: 1600px;
-        height: 25rem;
-        object-fit: cover;
-    }
-
-    .over-hero {
-        position: relative;
-        z-index: 2;
-        top: -330px;
-        left: -350px;
-        display: flex;
-        gap: 1rem;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    .over-hero .hero-box p {
-        margin-top: -30px;
     }
 
     nav {
@@ -264,33 +288,22 @@ footer {
 
     }
 
+    h1 {
+        font-size: 4rem;
+    }
+
 }
 
 
 /*Extra Large XL */
 @media (min-width: 1280px) {
 
-    .over-hero {
-        position: relative;
-        z-index: 2;
-        top: -330px;
-        left: -460px;
-        display: flex;
-        gap: 1rem;
-    }
+
 
 }
 
 /* EXTRA Extra Large - XXL */
 @media (min-width: 1440px) {
 
-    .over-hero {
-        position: relative;
-        z-index: 2;
-        top: -330px;
-        left: -450px;
-        display: flex;
-        gap: 1rem;
-    }
 
 }
