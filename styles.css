@@ -23,7 +23,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw; 
-    height: 100vw;                                     
+    height: 100%;                                     
 }
 
 .logo {
@@ -49,23 +49,6 @@ header {
     display: flex;
     align-items: center;
 }
-
-/* .over-hero {
-    background-color: #8DC63F;
-    color: var(--white);
-    filter: drop-shadow(0 0 0.75rem black);
-    height: 50%; 
-}
-
-.hero-box {
-    width: 200px;
-    height: 100px;
-    color: var(--white);
-}
-
-.empty-middle, .hero-tags {
-    width: 0;
-}  */
 
 .hero {
     width: 100vw;
@@ -132,6 +115,33 @@ h1 {
     box-sizing: border-box;
     padding: 1rem;
 }
+
+/* STICKERS */
+
+.middle-main {
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.sticker-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    flex-shrink: 0;
+    padding-right: 2rem;
+}
+
+.sticker {
+    height: 150px;
+    position: relative;
+}
+
 
 /* NAVIGATION */
 
@@ -213,19 +223,40 @@ footer {
     padding-left: 1rem;
     padding-right: 1rem;
     width: 100vw;
-    height: 5rem;
+    height: 15rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-logo {
+    width: 55px;
+    height: 50px;
 }
 
 .socials {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
 .socials a i {
     color: var(--white);
     font-size: 2rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding-top: 1rem;
+
 }
 
 
@@ -238,6 +269,23 @@ footer {
         background-position: left;
     }
 
+    .sticker-images {
+        display: none;
+    }
+
+    .sticker-images-mini {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sticker-text {
+        max-width: 250px;
+    }
+
+
+
 
 
 
@@ -247,11 +295,22 @@ footer {
 @media (min-width: 768px) {
 
 
-
 }
 
 /* Medium */
 @media (min-width: 868px) {
+
+    .sticker-images {
+        display: block;
+    }
+
+    .sticker-images-mini {
+        display: none;
+    }
+
+    .sticker-text {
+        max-width: 480px;
+    }
 
 
 
