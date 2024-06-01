@@ -263,7 +263,7 @@ footer {
 
 
 /* Small (sm) */
-@media (min-width: 420px) {
+@media (max-width: 420px) {
 
     .hero {
         background-position: left;
@@ -284,21 +284,13 @@ footer {
         max-width: 250px;
     }
 
-
-
-
-
-
+    .middle-main {
+        flex-direction: column;
+    }
 }
 
 /* Medium */
 @media (min-width: 768px) {
-
-
-}
-
-/* Medium */
-@media (min-width: 868px) {
 
     .sticker-images {
         display: block;
@@ -311,6 +303,12 @@ footer {
     .sticker-text {
         max-width: 480px;
     }
+
+}
+
+/* Medium */
+@media (min-width: 868px) {
+
 
 
 
