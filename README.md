@@ -10,3 +10,5 @@ Portfolio project given to me as a FrontEnf student at Noroff.
 
 ## Goal
 The goal of thes project is to showcase my skills as a FrontEnd Developer for the job market.
+
+This project was made by me, Anette Therese Hanssen, in June 2024.
