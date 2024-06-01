@@ -266,7 +266,11 @@ footer {
 @media (max-width: 420px) {
 
     .hero {
-        background-position: left;
+        background-position: -110px center;
+    }
+
+    .over-hero {
+        padding: 1rem 1rem;
     }
 
     .sticker-images {
