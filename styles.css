@@ -7,11 +7,15 @@
 :root {
     --darkblue: #1B213C;
     --bluegray: #3181B2;
+    --lightblue: #83CAD8;
     --lightgray: #EDEDED;
     --white: #FFF;
     --yellow: #FFCF2F;
+    --lightyellow: #EFD961;
     --green: #8DC63F;
     --darkgreen: #80A450;
+    --lightgreen: #95C994;
+    --darkpink: #DA7369;
 }
 
 body {
@@ -77,6 +81,11 @@ h1 {
     font-size: 3rem;
 }
 
+a {
+    text-decoration: none;
+    color: var(--darkblue);
+}
+
 .hero-text {
     flex: 1; /* Takes up as much space as needed */
     display: flex;
@@ -125,6 +134,7 @@ h1 {
     justify-content: center;
     gap: 2rem;
     width: 100%;
+    background-color: var(--lightgray);
 }
 
 .sticker-images {
@@ -142,6 +152,98 @@ h1 {
     position: relative;
 }
 
+/* PORTFOLIO IN MAIN */
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.portfolio-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.port-box {
+    width: 300px;
+}
+
+.port-box img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.css-mark {
+    background-color: var(--lightblue);
+    color: var(--white);
+    padding: 0.5rem;
+}
+
+.html-mark {
+    background-color: var(--lightgreen);
+    color: white;
+    padding: 0.5rem;
+}
+
+.js-mark {
+    background-color: var(--darkpink);
+    color: white;
+    padding: 0.5rem;
+}
+
+.port-box p {
+    padding-bottom: 1rem;
+}
+
+/* TEA TIME */
+
+.tea-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.tea-box {
+    width: 400px;
+    padding: 3rem;
+}
+
+.tea-box h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.tea-box img {
+    width: 250px;
+}
+
+.tea-button {
+    background-color: var(--lightyellow);
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+    font-weight: 200;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 /* NAVIGATION */
 
@@ -263,7 +365,7 @@ footer {
 
 
 /* Small (sm) */
-@media (max-width: 420px) {
+@media (max-width: 450px) {
 
     .hero {
         background-position: -110px center;
@@ -291,6 +393,33 @@ footer {
     .middle-main {
         flex-direction: column;
     }
+
+    .tea-time {
+        flex-direction: column-reverse;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .tea-box {
+        width: 350px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tea-box img {
+        margin-left: 30px;
+    }
+
+    .gray-about-top {
+        flex-direction: column;
+    }
+
 }
 
 /* Medium */
