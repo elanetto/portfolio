@@ -16,4 +16,10 @@ Check out my Figma-file [here](https://www.figma.com/design/vBWtxr0SAQVuYMFrWea3
 
 ---
 
-This project was made by me, Anette Therese Lindberg, in June 2024.
+### Something fun
+Have fun with my Escape The Classroom game, made when I studied "Programming for Teachers" as a High School teacher: Check out the game - 
+  [Escape the Classroom](https://elanetto.github.io/escape_game/index.html)
+
+---
+
+This Portfolio-project was made by me, Anette Therese Lindberg, in June 2024.
