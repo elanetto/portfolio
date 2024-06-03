@@ -368,7 +368,7 @@ footer {
 
 
 /* Small (sm) */
-@media (max-width: 450px) {
+@media (max-width: 750px) {
 
     .hero {
         background-position: -110px center;
@@ -383,7 +383,6 @@ footer {
     }
 
     .sticker-images-mini {
-        display: block;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -436,10 +435,10 @@ footer {
 }
 
 /* Medium */
-@media (min-width: 768px) {
+@media (min-width: 751px) {
 
     .sticker-images {
-        display: block;
+        display: flex;
     }
 
     .sticker-images-mini {
@@ -449,14 +448,6 @@ footer {
     .sticker-text {
         max-width: 480px;
     }
-
-}
-
-/* Medium */
-@media (min-width: 868px) {
-
-
-
 
 }
 
@@ -497,16 +488,3 @@ footer {
 
 }
 
-
-/*Extra Large XL */
-@media (min-width: 1280px) {
-
-
-
-}
-
-/* EXTRA Extra Large - XXL */
-@media (min-width: 1440px) {
-
-
-}
