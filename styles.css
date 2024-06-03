@@ -157,7 +157,7 @@ a {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 2rem;
     padding: 4rem;
@@ -173,6 +173,7 @@ a {
 
 .port-box {
     width: 300px;
+    height: 450px;
 }
 
 .port-box img {
