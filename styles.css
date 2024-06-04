@@ -134,7 +134,7 @@ a {
 /* STICKERS */
 
 .middle-main {
-    padding: 2rem 4rem;
+    padding: 3rem 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,9 +223,6 @@ a {
 .github-btn:hover {
     background-color: var(--lightestpink);
     color: var(--darkestpink);
-    /* border-width: 3px;
-    border: solid;
-    border-color: var(--darkestpink); */
 }
 
 
@@ -233,9 +230,6 @@ a {
 .deployed-btn:hover {
     background-color: var(--lightblue);
     color: var(--darkblue);
-    /* border-width: 3px;
-    border: solid;
-    border-color: var(--darkblue); */
 }
 
 .portfolio-btns {
@@ -473,6 +467,11 @@ footer {
         justify-content: center;
         gap: 2rem;
         padding: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .port-box {
+        margin-bottom: 5rem;
     }
 
 }
