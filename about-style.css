@@ -1,0 +1,96 @@
+:root {
+    --darkblue: #1B213C;
+    --bluegray: #3181B2;
+    --lightblue: #83CAD8;
+    --lightgray: #EDEDED;
+    --darkgray: #A3A3A3;
+    --white: #FFF;
+    --yellow: #FFCF2F;
+    --lightyellow: #EFD961;
+    --green: #8DC63F;
+    --darkgreen: #80A450;
+    --lightgreen: #95C994;
+    --darkestpink: #BB5146;
+    --darkpink: #DA7369;
+    --lightpink: #FAA299;
+    --lightestpink: #FFCCC7;
+    --lightpurple: #C0ABD6;
+    --darkpurple: #8561AA;
+}
+
+.about-hero {
+    display: flex;
+    background-color: var(--lightgray);
+    width: 100vw;
+    height: 30rem;
+}
+
+.about-page-hero-box-1 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 5rem;
+}
+
+.about-page-hero-box-2 {
+    display: flex;
+    background-image: url(assets/images/hero/goldsmiths.jpg);
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+}
+
+.about-h1, .about-h2 {
+    margin-bottom: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.linkedin-btn {
+    color: white;
+    padding: 0.8rem;
+    border-radius: 12px;
+    background-color: var(--bluegray);
+    color: var(--white);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.linkedin-btn:hover {
+    background-color: var(--darkblue);
+}
+
+.about-under-hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-under-hero > div {
+    width: 100%;
+    padding: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 350px;
+}
+
+#contact-form > textarea {
+    height: 10rem;
+}
