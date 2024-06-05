@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --darkblue: #1B213C;
     --bluegray: #3181B2;
@@ -156,6 +160,10 @@
     .contact-form {
         padding: 3rem 2.2rem;
         margin-top: 2rem;
+    }
+
+    .gray-aboutpage-box {
+        padding: 5rem;
     }
 
 }
