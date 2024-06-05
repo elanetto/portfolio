@@ -153,6 +153,11 @@
         flex-direction: column;
     }
 
+    .contact-form {
+        padding: 3rem 2.2rem;
+        margin-top: 2rem;
+    }
+
 }
 
 /* Medium screen */
