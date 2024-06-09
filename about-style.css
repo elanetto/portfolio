@@ -149,6 +149,7 @@
     width: 350px;
 }
 
+
 /* Small screen */
 @media (max-width: 750px) {
     .about-hero {
@@ -197,10 +198,6 @@
         flex-direction: row;
         width: 100vw;
         height: 40rem;
-    }
-
-    .personal-projects-hero-container {
-        height: 27rem;
     }
 
     .about-page-hero-box-1, .about-page-hero-box-2 {
