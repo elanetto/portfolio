@@ -170,7 +170,7 @@ a {
 }
 
 .portfolio > h2 {
-    padding-left: 2rem;
+    text-align: center;
 }
 
 .portfolio-boxes {
@@ -484,6 +484,21 @@ footer {
         margin-bottom: 5rem;
     }
 
+    .portfolio {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 2rem;
+        padding: 2rem;
+        text-align: left;
+        width: 100%;
+    }
+
+    .portfolio > h2 {
+        text-align: left;
+        width: 100%;
+    }
+
 }
 
 /* Medium */
@@ -499,20 +514,6 @@ footer {
 
     .sticker-text {
         max-width: 480px;
-    }
-
-    .portfolio {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 2rem;
-        padding: 2rem;
-    }
-
-    .portfolio > h2 {
-        margin: 0;
-        padding: 0;
-        padding-top: 4rem;
     }
 
 }
@@ -561,8 +562,8 @@ footer {
     }
     
     .portfolio > h2 {
-        padding-left: 2rem;
-        padding-top: 2rem;
+        text-align: center;
+        width: 100%;
     }
 
 }
