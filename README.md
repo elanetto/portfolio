@@ -1,85 +1,32 @@
 
 
+# My Portfolio
 
-![App Screenshot](https://github.com/elanetto/portfolio/blob/main/assets/images/readme/Screenshot-of-header-for-readme.png?raw=true)
+![image](https://github.com/elanetto/portfolio/blob/main/assets/images/readme/Screenshot-of-header-for-readme.png?raw=true)
 
+A collection of some of my FrontEnd Dev projects.
 
+## Description
 
-# Portfolio Project
-Portfolio project given to me as a FrontEnf student at Noroff.
-
-## Goal
 The goal of thes project is to showcase my skills as a FrontEnd Developer for the job market.
+We were to show at least 4 main projects, and my chosen ones are:
+
+- Wedding Website
+- Game Hub
+- Science Museum
+- Escape the Classroom
+
+## Built With
+
+![image](https://github.com/elanetto/portfolio/blob/main/assets/images/readme/badges-html-figma-css.png?raw=true)
 
 ## Figma
 Check out my Figma-file [here](https://www.figma.com/design/vBWtxr0SAQVuYMFrWea3Uw/portfolio-site?node-id=44-96&t=ndQsyqWru8d5nmZG-1)
 
----
-
-### Something fun
-Have fun with my Escape The Classroom game, made when I studied "Programming for Teachers" as a High School teacher: Check out the game - 
-  [Escape the Classroom](https://elanetto.github.io/escape_game/index.html)
-
----
-
-This Portfolio-project was made by me, Anette Therese Lindberg, in June 2024.
-
----
-
-Copied ReadMe:
-
----
-
-# Your project title
-
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
-A simple overview of the use/purpose of the project.
-
-## Description
-
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
-
-## Built With
-
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
-
 ## Getting Started
 
-### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
 
 ## Contributing
 
