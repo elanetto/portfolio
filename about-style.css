@@ -139,6 +139,10 @@
     background-color: var(--lightyellow);
     padding: 4rem 6rem;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .get-in-touch-title {
@@ -147,6 +151,12 @@
 
 .badges {
     width: 350px;
+}
+
+.about-socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
 }
 
 
