@@ -120,9 +120,7 @@
 .about-under-hero > div {
     width: 100%;
     height: 100%;
-    padding: 4rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,10 +200,7 @@
     }
 
     .about-under-hero > div {
-        padding-top: 4rem;
-        padding-bottom: 6rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding: 2rem 3rem;
         display: flex;
         align-items: center;
         justify-content: center;
