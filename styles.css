@@ -476,7 +476,7 @@ footer {
         align-items: center;
         justify-content: center;
         gap: 2rem;
-        padding: 1rem;
+        padding: 0;
         padding-bottom: 4rem;
     }
 
