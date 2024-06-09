@@ -470,6 +470,16 @@ footer {
         margin: 0;
     }
 
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0;
+        padding-bottom: 4rem;
+    }
+
     .port-box {
         margin-bottom: 5rem;
     }
@@ -478,9 +488,6 @@ footer {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        align-self: flex-start;
-        align-content: flex-start;
-        flex-direction: column;
         gap: 2rem;
         padding: 2rem;
         text-align: left;
@@ -490,14 +497,6 @@ footer {
     .portfolio > h2 {
         text-align: left;
         width: 100%;
-    }
-
-    .portfolio-boxes {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 3rem;
     }
 
 }
