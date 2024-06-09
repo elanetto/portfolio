@@ -28,6 +28,12 @@
     height: 30rem;
 }
 
+.personal-projects-hero-container {
+    display: flex;
+    width: 100vw;
+    height: 20rem;
+}
+
 .about-page-hero-box-1 {
     display: flex;
     flex-direction: column;
@@ -44,6 +50,24 @@
     height: 100%;
     background-size: cover;
     background-position: top;
+}
+
+.personal-projects-hero {
+    display: flex;
+    background-image: url(assets/images/hero/personal-projects.jpg);
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.school-project-hero {
+    background-image: url(assets/images/hero/school-projects-hero.png);
+}
+
+.frontend-mentor-hero {
+    background-image: url(assets/images/hero/frontend-mentor-hero.png);
 }
 
 .about-h1, .about-h2 {
@@ -131,18 +155,17 @@
         flex-wrap: wrap-reverse;
         flex-direction: column-reverse;
         height: auto;
-        width: auto;
         margin-bottom: 1rem;
         padding: 0;
     }
 
     .hero-box {
         width: 100%; /* Full width for small screens */
+        padding: 2rem;
     }
 
     .about-page-hero-box-1 {
         margin-left: 2rem;
-
     }
 
     .about-page-hero-box-2 {
@@ -150,7 +173,7 @@
     }
 
     .badges {
-        width: 300px;
+        width: 250px;
     }
 
     .about-under-hero {
@@ -174,6 +197,10 @@
         flex-direction: row;
         width: 100vw;
         height: 40rem;
+    }
+
+    .personal-projects-hero-container {
+        height: 27rem;
     }
 
     .about-page-hero-box-1, .about-page-hero-box-2 {

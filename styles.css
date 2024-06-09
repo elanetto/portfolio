@@ -162,11 +162,15 @@ a {
 
 .portfolio {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 2rem;
     padding: 4rem;
+}
+
+.portfolio > h2 {
+    padding-left: 2rem;
 }
 
 .portfolio-boxes {
@@ -240,6 +244,10 @@ a {
 
 .port-box p {
     padding-bottom: 1rem;
+}
+
+.gray-portfolio {
+    background-color: var(--lightgray);
 }
 
 /* TEA TIME */
@@ -469,7 +477,7 @@ footer {
         justify-content: center;
         gap: 2rem;
         padding: 1rem;
-        margin-bottom: 4rem;
+        padding-bottom: 4rem;
     }
 
     .port-box {
