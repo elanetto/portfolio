@@ -163,7 +163,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .portfolio > h2 {
@@ -271,7 +271,7 @@ a {
     border: none;
     border-radius: 6px;
     padding: 1rem;
-    width: 285px;
+    width: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -408,6 +408,7 @@ footer {
 
     .hero {
         background-position: -110px center;
+        width: 100%;
     }
 
     .over-hero {
@@ -430,12 +431,14 @@ footer {
 
     .middle-main {
         flex-direction: column;
+        text-align: center;
     }
 
     .tea-time {
         flex-direction: column-reverse;
         margin-bottom: 2rem;
         margin-top: 1rem;
+        text-align: center;
     }
     
     .tea-box {
@@ -461,10 +464,6 @@ footer {
         margin: 0;
     }
 
-    .port-box {
-        margin-bottom: 5rem;
-    }
-
     .portfolio {
         display: flex;
         align-items: flex-start;
@@ -473,9 +472,9 @@ footer {
         align-content: flex-start;
         flex-direction: column;
         gap: 2rem;
-        padding: 2rem;
+        padding: 3rem;
         text-align: left;
-        width: 100%;
+        width: 100vw;
     }
 
     .portfolio > h2 {
@@ -488,7 +487,7 @@ footer {
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: flex-start;
-        gap: 3rem;
+        padding-bottom: 2rem;
     }
 
 }
