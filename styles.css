@@ -72,7 +72,6 @@ header {
 }
 
 .over-hero {
-    /* background-color: #8DC63F; */
     color: var(--white);
     filter: drop-shadow(0 0 0.75rem black);
     height: 50%;
@@ -109,7 +108,6 @@ a {
 }
 
 /* MAIN */
-
 .gray-about-top {
     background-color: var(--lightgray);
     color: var(--darkblue);
@@ -159,7 +157,6 @@ a {
 }
 
 /* PORTFOLIO IN MAIN */
-
 .portfolio {
     display: flex;
     flex-direction: column;
@@ -184,7 +181,7 @@ a {
 .port-box {
     width: 300px;
     height: 450px;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 .port-box img {
@@ -222,14 +219,10 @@ a {
     padding-right: 1rem;
 }
 
-
-
 .github-btn:hover {
     background-color: var(--lightestpink);
     color: var(--darkestpink);
 }
-
-
 
 .deployed-btn:hover {
     background-color: var(--lightblue);
@@ -251,7 +244,6 @@ a {
 }
 
 /* TEA TIME */
-
 .tea-time {
     display: flex;
     align-items: center;
@@ -294,7 +286,6 @@ a {
 }
 
 /* NAVIGATION */
-
 nav {
     display: flex;
     flex-direction: row;
