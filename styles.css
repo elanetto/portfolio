@@ -58,17 +58,7 @@ header {
     background-position: center;
     display: flex;
     align-items: center;
-}
-
-.hero {
-    width: 100vw;
-    height: 25rem;
-    background-image: url("assets/images/hero/anette_hero_small.jpeg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center; /* Vertically centers the over-hero div */
-    justify-content: flex-start; /* Aligns the over-hero div to the left */
+    justify-content: flex-start;
 }
 
 .over-hero {
@@ -92,7 +82,7 @@ a {
 }
 
 .hero-text {
-    flex: 1; /* Takes up as much space as needed */
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,7 +94,7 @@ a {
 }
 
 .empty-middle {
-    flex: 1; /* Takes up the remaining space */
+    flex: 1;
 }
 
 /* MAIN */
@@ -115,22 +105,21 @@ a {
     margin-top: 0;
     padding-left: 2rem;
     padding-right: 2rem;
-    align-items: flex-start; /* Align items at the top */
+    align-items: flex-start;
     justify-content: center;
     padding: 1rem 4rem;
     gap: 1rem;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap;
 }
 
 .gray-about-top > div {
     flex: 1;
-    min-width: 200px; /* Set a minimum width for better responsiveness */
+    min-width: 200px;
     box-sizing: border-box;
     padding: 1rem;
 }
 
 /* STICKERS */
-
 .middle-main {
     padding: 3rem 5rem;
     display: flex;
@@ -401,8 +390,6 @@ footer {
 }
 
 
-
-
 /* Small (sm) */
 @media (max-width: 750px) {
 
@@ -412,7 +399,8 @@ footer {
     }
 
     .over-hero {
-        padding: 1rem 1rem;
+        padding: 1rem;
+        padding-right: 0;
     }
 
     .sticker-images {
@@ -432,29 +420,29 @@ footer {
     .middle-main {
         flex-direction: column;
         text-align: center;
+        width: 100vw;
     }
 
     .tea-time {
         flex-direction: column-reverse;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
+        margin: 0;
+        padding: 0;
         text-align: center;
+        width: 100%;
+        gap: 0;
     }
     
     .tea-box {
-        width: 350px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 0;
-        padding-bottom: 0;
+        max-width: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding: 1rem;
     }
 
     .tea-box img {
-        width: 200px;
+        max-width: 200px;
         margin-left: 30px;
     }
 
