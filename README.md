@@ -52,7 +52,7 @@ background-image: url("assets/images/hero/anette_hero_small.jpeg");
 What can be done better? Well, I used CSS to create the dropdown-menu of this site, but I could have used JavaScript. I could also add more hover-effects to the portfolio-cards and other clickable links.
 
 ## Contact
-You can reach me at hei@anettetherese.no
+You can reach me at my email: hei@anettetherese.no
 
 Or, simply find me at [LinkedIn](https://www.linkedin.com/in/anettetherese/)
 
