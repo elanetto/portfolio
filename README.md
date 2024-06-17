@@ -31,6 +31,8 @@ We were given a brief from Noroff about creating our own portfolio website.
 - Write ReadMe-files for the projects
 - Presenting our finished project for the class
 
+I did present my portfolio webpage and the chosen projects to highlight. My presentation inclueded a PowerPoint.
+
 ## How was the process?
 I was eager to start, and started with Figma. I wanted to use colours and illustrations, as well as images and anecdotes.
 My site is created entiraly in HTML and CSS, and I have been editing small details again and again to make ut just right.
